@@ -1,6 +1,28 @@
-﻿<!doctype html>
+<!-- Copyright © 2025 MochiMakesMatcha. Licensed under CC BY-SA found at https://creativecommons.org/licenses/by-sa/4.0/ -->
+<!doctype html>
 <html>
-meow, am mochi
-<hr>
-wip
+    <head>
+        <title>
+            Mochi's Site
+        </title>
+        <link rel="icon" href="favicon.png">
+        <link rel="stylesheet" href="css.css">
+        <script src="js.js"></script>
+        <script src="js-cpu.js"></script>
+    </head>
+    <body>
+        <span class="big center heading">Welcome to mochi's page.</span>
+        <br class="heading">
+        <span class="medium center heading">meow meow</span>
+        <hr class="heading">
+        <div class="right">
+            <input type="text" id="terminalInput" class="medium" placeholder="mochi@mochipc: $ "> <button class="medium" onclick="submitCommand()"> [ENTER] </button>
+            <br>
+            <div id="terminalOutput"></div>
+        </div>
+        <span class="medium" onclick="burger()">≡</span>
+        <div id="menu" hidden=true>
+            Sorry, no cool stuff here yet...
+        </div>
+    </body>
 </html>

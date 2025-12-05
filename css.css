@@ -1,0 +1,26 @@
+/* Copyright © 2025 MochiMakesMatcha. Licensed under CC BY-SA found at https://creativecommons.org/licenses/by-sa/4.0/ */
+body {
+    background-color: #ffccff;
+}
+
+.big {
+    font-size: min(5vh, 5vw);
+}
+
+.medium {
+    font-size: min(2.5vh, 2.5vw);
+}
+
+.small {
+    font-size: min(1vh, 1vw);
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
+.right {
+    position: absolute;
+    right: 0.5vw;
+}
