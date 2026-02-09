@@ -24,3 +24,26 @@ body {
     position: absolute;
     right: 0.5vw;
 }
+
+.terminal{
+    border: min(0.25vh, 0.25vw);
+    border-style: solid;
+    border-color: #000000;
+    background-color: #333366;
+    color: #ffffff;
+}
+
+.menu{
+    width: fit-content;
+    height: 80vh;
+    border: min(0.25vh, 0.25vw);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: #000000;
+    background-color: #cc99cc;
+}
+
+a:visited {
+    color: #ffffcc;
+}

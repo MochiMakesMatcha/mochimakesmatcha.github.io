@@ -3,7 +3,7 @@ var args=[];
 var dir = "home"
 function computer(command, args){
     if(command == "ls"){
-        output=eval("Object.keys(fs."+dir+").join(\", \")")
+        output=eval("Object.keys(fs."+dir+").join(\", \")");
         return(output);
     } else if (command == "cat" && args !=[]){
         file = args[0];
@@ -31,6 +31,12 @@ function computer(command, args){
     } else if(command == "home"){
         dir = "home";
         return("home dir")
+    }else if(command == "cls"){
+        return("CLS")
+    }else if(command == "help"){
+        return("ls, cat, echo, write, rm, mkdir, cd, home, cls, help")
+    }else{
+        return("command not recognised")
     };
 };
 
