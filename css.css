@@ -1,6 +1,10 @@
 /* Copyright © 2025 MochiMakesMatcha. Licensed under CC BY-SA found at https://creativecommons.org/licenses/by-sa/4.0/ */
-body {
+html {
     background-color: #ffccff;
+    background-image: url("cat.png");
+    background-position: calc(50vw - min(12vw, 12vh)) calc(50vh - min(12vw, 12vh));
+    background-repeat: no-repeat;
+    background-size: min(24vh, 24vw);
 }
 
 .big {
@@ -48,6 +52,3 @@ a:visited {
     color: #ffffcc;
 }
 
-a:link {
-    color: #66ccff;
-}
